@@ -14,3 +14,10 @@ demás incoherencias, todo ello mediante comandos SQL.
 
 3. Diseño del modelo estrella
 
+Se busca el esquema estrella por su simplicidad y rendimiento eficiente. Se definen las tablas de hechos y dimensiones. En este caso,
+nuestras tablas de dimensiones corresponden a Clientes, Productos, Staffs y Store, mientras que nuestra tabla de hechos corresponde a
+Ventas.
+
+4. Exportación del modelo a Power BI
+
+Se hace la exportación vía archivo plano (csv) con la ayuda del script mysql.connector de Python.
