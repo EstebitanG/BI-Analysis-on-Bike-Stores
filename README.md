@@ -11,7 +11,7 @@ Se buscó realizar primeramente la creación de la base de datos y la inserción
 Para este proyecto, se utilizaron las herramientas MySQL Workbench y Power Bi principalmente. También se usó Python como apoyo en algunos puntos del proyecto.
 
 
-#Herramientas y tecnologías
+# Herramientas y tecnologías
 
 MySQL Workbench -> diseño, carga, limpieza y modelado de datos.
 Power BI -> modelado de datos, Power Query, medidas DAX y visualizaciones.
