@@ -14,10 +14,7 @@ Para este proyecto, se utilizaron las herramientas MySQL Workbench y Power Bi pr
 ##Herramientas y tecnologías
 
 MySQL Workbench -> diseño, carga, limpieza y modelado de datos.
-
 Power BI -> modelado de datos, Power Query, medidas DAX y visualizaciones.
-
 Python -> exportación de base de datos SQL mediante mysql.connector y exploración de datos con Pandas.
-
 GitHub -> documentación y respaldo del proyecto.
 
