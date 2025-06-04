@@ -19,11 +19,12 @@ Se realizaron medidas con el lenguaje DAX para sacar métricas claves de negocio
 
 Estas y demás medidas destacables se ahondarán en los análisis clientes, productos, geográficos y conclusiones.
 
-# Análisis de Producto
+# Análisis de Clientes
 
 ![Análisis Clientes](../images/Analisis_Clientes_Final.png)
 
 
+En el análisis de clientes, podemos observar métricas como Facturación Promedio por Cliente, Top 10 Clientes por Ventas, cantidad de clientes por segmento (clasificando por facturación) y el comportamiento de ventas totales con granularidad año-mes. Se puede observar que,
 
 
 
