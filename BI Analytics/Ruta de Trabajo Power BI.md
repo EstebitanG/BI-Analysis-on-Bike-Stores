@@ -81,3 +81,30 @@ En este análisis geográfico, al ser más visual, no se calcularon nuevas medid
 
 ![Conclusiones](../images/Conclusion_final.png)
 
+En el apartado de las conclusiones, luego de haber explorado los 3 apartados principales del negocio, podemos repasar métricas fundamentales, a su vez de explorar nuevas que las complementen.
+
+Se poseen 1445 clientes a lo largo de la historia de la tienda, de los cuales la mayoría corresponden a clientes básico y promedio. De los 315 productos que la empresa ha poseído en inventario, 42 no han sido recomprados. La variación anual % en ventas a sido de -0.47%, lo que refleja una tendencia a la baja en todos sus productos de manera general. La empresa posee una tasa de retención de clientes de un 9.07%, lo cual explica en gran parte la baja rotación de su catálogo y sus ventas decrecientes. Sus ventas se concentran bastante en un solo estado (NY), y no se han desarrollado suficiente los segmentos Premium y VIP, que pueden representar un potencial considerable de aumento de márgenes de la empresa.
+
+Teniendo esta información presente, y tal como aparece en los cuadros de texto del dashboard, podemos intuir:
+
+A través del análisis de clientes, productos y geografía, se identifican patrones críticos que limitan el crecimiento sostenible del negocio. La caída en las ventas no responden solo a estacionalidad, sino también:
+
+Un modelo centrado en ventas únicas sin estrategias de recompra.
+
+Ciclos de vida del producto muy breves, sin continuidad en el catálogo.
+
+Falta de retención de clientes y rotación pobre de productos.
+
+Concentración geográfica que podría ampliarse a nuevas estrategias.
+
+Este análisis no busca predecir, sino diagnosticar estructuralmente la situación actual de la empresa los últimos 3 años, que permita tomar acciones para un modelo más sostenible a largo plazo.
+
+Siguientes pasos sugeridos:
+
+Explorar campañas de retención y fidelización de clientes.
+
+Diversificar catálogo con productos complementarios y servicios de mantención.
+
+Incentivar recompras con promociones personalizadas.
+
+Ampliar mercado geográfico con presencia online.
