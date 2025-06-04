@@ -69,4 +69,4 @@ Cantidad_Total_Vendida: donde usamos un SUM con order_quantity filtrando por Cal
 
 ->Segmento_Estratégico: donde es necesario hacer un SWITCH para clasificar a los productos según los ejes definidos por la matriz, y usando las 2 medidas anteriores.
 
-
+![Análisis Geográfico](../images/Analisis_Geografico_Final.png)
