@@ -36,5 +36,7 @@ Cliente Top Cantidad Dinámico: una medida que exhibe el cliente que nos ha comp
 
 Clientes Segmentados Visual: se basa en la segmentación por ticket promedio ya descrita, pero se añaden funciones para poder hacer la visualización dinámica. Es necesario usar CALCULATE, DISTINCTCOUNT, VALUES Y SWITCH, de manera de poder ver la evolución de la segmentación por años.
 
+# Análisis Producto
+
 
 
