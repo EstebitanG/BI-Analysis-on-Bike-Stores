@@ -89,22 +89,22 @@ Teniendo esta información presente, y tal como aparece en los cuadros de texto 
 
 A través del análisis de clientes, productos y geografía, se identifican patrones críticos que limitan el crecimiento sostenible del negocio. La caída en las ventas no responden solo a estacionalidad, sino también:
 
-Un modelo centrado en ventas únicas sin estrategias de recompra.
+-Un modelo centrado en ventas únicas sin estrategias de recompra.
 
-Ciclos de vida del producto muy breves, sin continuidad en el catálogo.
+-Ciclos de vida del producto muy breves, sin continuidad en el catálogo.
 
-Falta de retención de clientes y rotación pobre de productos.
+-Falta de retención de clientes y rotación pobre de productos.
 
-Concentración geográfica que podría ampliarse a nuevas estrategias.
+-Concentración geográfica que podría ampliarse a nuevas estrategias.
 
 Este análisis no busca predecir, sino diagnosticar estructuralmente la situación actual de la empresa los últimos 3 años, que permita tomar acciones para un modelo más sostenible a largo plazo.
 
 Siguientes pasos sugeridos:
 
-Explorar campañas de retención y fidelización de clientes.
+-Explorar campañas de retención y fidelización de clientes.
 
-Diversificar catálogo con productos complementarios y servicios de mantención.
+-Diversificar catálogo con productos complementarios y servicios de mantención.
 
-Incentivar recompras con promociones personalizadas.
+-Incentivar recompras con promociones personalizadas.
 
-Ampliar mercado geográfico con presencia online.
+-Ampliar mercado geográfico con presencia online.
