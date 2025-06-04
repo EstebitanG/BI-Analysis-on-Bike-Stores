@@ -73,7 +73,7 @@ Cantidad_Total_Vendida: donde usamos un SUM con order_quantity filtrando por Cal
 
 ![Análisis Geográfico](../images/Analisis_Geografico_Final.png)
 
-Respecto al análisis geográfico, podemos visualizar la concentración de clientes en los 3 estados en los que opera la tienda: California (CA) Texas (TX) y Nueva York (NY). Se puede ver que la ciudad con mayores ventas de manera histórica es Mount Vernon, y que la mayoría de las ciudades con mayores ventas provienen de NUeva York, que se lleva el 67.83% de los clientes en total. Podemos filtrar por segmento de clientes y categoría de producto, para saber el comportamiento particular de cada grupo. 
+Respecto al análisis geográfico, podemos visualizar la concentración de clientes en los 3 estados en los que opera la tienda: California (CA), Texas (TX) y Nueva York (NY). Se puede ver que la ciudad con mayores ventas de manera histórica es Mount Vernon, y que la mayoría de las ciudades con mayores ventas provienen de Nueva York, que se lleva el 67.83% de los clientes en total. Podemos filtrar por segmento de clientes y categoría de producto, para saber el comportamiento particular de cada grupo. 
 
 En este análisis geográfico, al ser más visual, no se calcularon nuevas medidas respecto a los análisis anteriores. Sin embargo, fue necesario concatenar correctamente la ciudad con el estado para que el motor de geolocalización de Bing pudiera identificar correctamente la ubicación de los clientes. Un análisis más certero podría haber sido usar la dirección exacta de cada cliente, pero para ello eran necesarias herramientas externas a Power BI, lo cual representa una limitación en este análisis.
 
