@@ -38,5 +38,6 @@ Clientes Segmentados Visual: se basa en la segmentación por ticket promedio ya 
 
 # Análisis Producto
 
+![Análisis Clientes](../images/Analisis_Producto_Final.png)
 
 
