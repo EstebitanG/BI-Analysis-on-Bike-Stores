@@ -19,6 +19,8 @@ Se realizaron medidas con el lenguaje DAX para sacar métricas claves de negocio
 
 Estas y demás medidas destacables se ahondarán en los análisis clientes, productos, geográficos y conclusiones.
 
+# Análisis de Producto
+
 ![Análisis Clientes](../images/Analisis_Clientes_Final.png)
 
 
