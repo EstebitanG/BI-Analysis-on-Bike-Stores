@@ -79,5 +79,5 @@ En este análisis geográfico, al ser más visual, no se calcularon nuevas medid
 
 # Conclusiones 
 
-![Conclusiones](../images/Conclusiones_final_Final.png)
+![Conclusiones](../images/Conclusiones_final.png)
 
