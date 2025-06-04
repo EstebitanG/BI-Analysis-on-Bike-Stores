@@ -127,4 +127,14 @@ Al mismo tiempo, el comportamiento irregular y errático de las ventas impiden h
 
 Por otro lado, el hecho de no poder haber geolocalizado a los clientes con mayor precisión usando una herramienta externa, nos limita a sacar conclusiones respecto al comportamiento geográfico real de los clientes. Si bien en las conclusiones no afecta mucho, entender con mayor precisión este apartado puede darnos una mejor idea de cómo se comportan los clientes, en este caso en EEUU. Sin embargo, el uso de una herramienta externa a Power BI (junto con MySQL y Python) escapa del propósito de este proyecto.
 
+Por último, los KPIs y medidas calculadas no tienen otra base de comparación que la evolución temporal de la misma empresa. No tenemos información de la competencia directa de la tienda de bicicletas, ni información del contexto económico de la época y cómo pudo haberle afectado directamente, ni tampoco estándares de la industria en la que se desenvuelve para evaluar el rendimiento en términos relativos.
 
+# Lecciones Aprendidas
+
+Esta es una breve reflexión personal que trata sobre lo que significó abordar este proyecto de inicio a fin, resaltando los principales aprendizajes.
+
+En términos técnicos, este proyecto me permitió desenvolverme aún más con la herramienta de MySQL, poniendo en práctica sus comandos y sintaxis en un proyecto práctico. Ahondo en lo que es el modelado de datos y la importancia de esta fase en un proyecto de analítica de datos para un correcto procesamiento posterior, entendiendo el formato de los datos y cómo relacionarlos coherentemente.
+
+Respecto a Power BI, este proyecto logra adentrarme de lleno en sus funcionalidades más importantes, interactuar con sus visualizaciones dinámicas para presentar KPIs relevantes desarrollando criterio de cuál visualización es más adecuada para cada situación, y lo más importante, familiarizarme con el lenguaje DAX llegando a un nivel intermedio del mismo, fundamental para lograr análisis más complejos y adaptados a los requerimientos del área. 
+
+En términos de analista de datos BI, haber obtenido un dataset de estas características representó un desafío que logró desarrollar pensamiento crítico, ya que en un momento no se contaba con la información suficiente o "ideal" para sacar los insights más atractivos, sin embargo, esto no representó una limitación sino una oportunidad para saber leer el contexto completo de un negocio, identificando fortalezas y debilidades de manera de poder proponer planes de acción.
