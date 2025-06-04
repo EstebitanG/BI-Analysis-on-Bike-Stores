@@ -77,3 +77,7 @@ Respecto al análisis geográfico, podemos visualizar la concentración de clien
 
 En este análisis geográfico, al ser más visual, no se calcularon nuevas medidas respecto a los análisis anteriores. Sin embargo, fue necesario concatenar correctamente la ciudad con el estado para que el motor de geolocalización de Bing pudiera identificar correctamente la ubicación de los clientes. Un análisis más certero podría haber sido usar la dirección exacta de cada cliente, pero para ello eran necesarias herramientas externas a Power BI, lo cual representa una limitación en este análisis.
 
+# Conclusiones 
+
+![Conclusiones](../images/Conclusiones_final_Final.png)
+
