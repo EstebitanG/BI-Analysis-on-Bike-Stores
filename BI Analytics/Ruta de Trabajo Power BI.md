@@ -64,7 +64,9 @@ Las principales medidas DAX de este análisis fueron:
 
 -Matriz Crecimiento %: se usan 3 medidas principales -> 
 Cantidad_Total_Vendida: donde usamos un SUM con order_quantity filtrando por Calendario[date] para tomar valores anteriores a abril de 2018.
-Variación interanual Dinámica: donde tomamos medidas de ventas que seleccionan meses particulares para que se comparen de forma interanual. Para ello se usan funciones como SAMEPERIODLASTYEAR y KEEPFILTERS.
-Segmento_Estratégico: donde es necesario hacer un SWITCH para clasificar a los productos según los ejes definidos por la matriz, y usando las 2 medidas anteriores.
+
+->Variación interanual Dinámica: donde tomamos medidas de ventas que seleccionan meses particulares para que se comparen de forma interanual. Para ello se usan funciones como SAMEPERIODLASTYEAR y KEEPFILTERS.
+
+->Segmento_Estratégico: donde es necesario hacer un SWITCH para clasificar a los productos según los ejes definidos por la matriz, y usando las 2 medidas anteriores.
 
 
