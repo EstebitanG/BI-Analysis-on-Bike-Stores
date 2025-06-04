@@ -24,7 +24,17 @@ Estas y demás medidas destacables se ahondarán en los análisis clientes, prod
 ![Análisis Clientes](../images/Analisis_Clientes_Final.png)
 
 
-En el análisis de clientes, podemos observar métricas como Facturación Promedio por Cliente, Top 10 Clientes por Ventas, cantidad de clientes por segmento (clasificando por facturación) y el comportamiento de ventas totales con granularidad año-mes. Se puede observar que,
+En el análisis de clientes, podemos observar métricas como Facturación Promedio por Cliente, Top 10 Clientes por Ventas, cantidad de clientes por segmento (clasificando por facturación) y el comportamiento de ventas totales con granularidad año-mes. Al interactuar con estos gráficos dinámicos, se puede observar que la mayoria de nuestra ventas provenían desde un principio de nuestros clientes Básico y Promedio (facturación menor a $10.000 USD), pero al pasar los años, los clientes tipo Premium y VIP empiezan a tomar un porcentaje importante de nuestro total de ventas, que puede señalar los esfuerzos de la empresa por vender productos de una gama superior. Respecto al comportamiento de las ventas, si bien no se puede decir con exactitud que existe un comportamiento cíclico, sí existe un patrón heterogéneo. La particularidad está en que, desde abril de 2018, hubo un pick importante de ventas a nivel histórico, para luego tener una caída brutal hasta fin de año.
+
+Las principales medidas DAX de este análisis fueron:
+
+Facturación Promedio por Cliente: usando las funciones DIVIDE, SUM Y DISTINCT COUNT sobre columnas de la tabla Hechos y Clientes.
+
+Ventas Totales: usando la función SUMX para multiplicar horizontalmente las 3 columnas que conforman las ventas.
+
+Cliente Top Cantidad Dinámico: una medida que exhibe el cliente que nos ha comprado la mayor cantidad de productos (de manera histórica y por período). Usa funciones como SUMMARIZE, TOPN, SELECTCOLUMNS, CALCULATE, MAX y FILTER, junto con la creación de variables (VAR).
+
+Clientes Segmentados Visual: se basa en la segmentación por ticket promedio ya descrita, pero se añaden funciones para poder hacer la visualización dinámica. Es necesario usar CALCULATE, DISTINCTCOUNT, VALUES Y SWITCH, de manera de poder ver la evolución de la segmentación por años.
 
 
 
