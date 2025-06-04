@@ -125,6 +125,6 @@ A su vez, si bien el dataset cuenta con información suficiente para sacar métr
 
 Al mismo tiempo, el comportamiento irregular y errático de las ventas impiden hacer un análisis de sensibilidad de las variables de interés principales (precio, cantidad, periodo del año, entre otras), de manera de no solamente poder predecir comportamientos futuros, sino también entender el efecto de los determinantes actuales en los KPIs calculados.
 
-Por otro lado, el hecho de no poder haber geolocalizado a los clientes con mayor precisión usando una herramienta externa, nos limita a sacar conclusiones respecto al comportamiento geográfico real de los clientes. Si bien en las conclusiones no afecta mucho, entender con mayor precisión este apartado puede darnos una mejor idea de cómo se comportan los clientes, en este caso en EEUU. Sin embargo, el uso de una herramienta externa a Power BI escapa del propósito de este proyecto.
+Por otro lado, el hecho de no poder haber geolocalizado a los clientes con mayor precisión usando una herramienta externa, nos limita a sacar conclusiones respecto al comportamiento geográfico real de los clientes. Si bien en las conclusiones no afecta mucho, entender con mayor precisión este apartado puede darnos una mejor idea de cómo se comportan los clientes, en este caso en EEUU. Sin embargo, el uso de una herramienta externa a Power BI (junto con MySQL y Python) escapa del propósito de este proyecto.
 
 
