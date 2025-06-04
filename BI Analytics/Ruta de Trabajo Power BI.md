@@ -108,3 +108,23 @@ Siguientes pasos sugeridos:
 -Incentivar recompras con promociones personalizadas.
 
 -Ampliar mercado geográfico con presencia online.
+
+Las principales medidas DAX de este análisis fueron:
+
+-Variación Anual % Ventas = usando DIVIDE y medidas calculadas con anterioridad que reflejaban las ventas del año actual y anterior.
+
+-Productos sin recompra = productos que se vendieron 1 sola vez. Se usó CALCULATE, DISTINCTCOUNT, FILTER Y VALUES, junto con una medida calculada con anterioridad, para identificar estos productos mediante su ID.
+
+-Tasa Retención Clientes % = se usan FORMAT y DIVIDE para calcular una razón entre clientes retenidos y clientes únicos. Los clientes únicos son un COUNT de los clientes. En el caso de los clientes retenidos, se usan CALCULATE, DISTINCTCOUNT, FILTER Y VALUES para contar los clientes que nos han comprado más de una vez. Es un criterio pesimista, del cual nos aparece un resultado desfavorable (si subieramos el criterio ej. > 5, la tasa de retención hubiera sido aún menor).
+
+# Limitaciones del proyecto
+
+Este proyecto de modelado de datos y analítica de negocios usando MySQL y Power BI sirve principalmente para diagnosticar la situación pasada del negocio de bicicletas, no es un dataset orientado a predicción robusta ni modelos avanzados de Machine Learning.
+
+A su vez, si bien el dataset cuenta con información suficiente para sacar métricas útiles para el área comercial, se queda corto para sacar métricas clave como Valor de Vida del Cliente (CLTV), márgenes de contribución, tasas de adopción de nuevos productos, comportamiento de ventas online vs offline, y análisis de Time Intelligence. Si bien se mencionó que la mayoría de estas limitaciones son una debilidad de la empresa al tener poca retención y baja rotación de productos, haber tenido un comportamiento más marcado de estos factores que son tan clave para el área comercial podría haber enriquecido el análisis. 
+
+Al mismo tiempo, el comportamiento irregular y errático de las ventas impiden hacer un análisis de sensibilidad de las variables de interés principales (precio, cantidad, periodo del año, entre otras), de manera de no solamente poder predecir comportamientos futuros, sino también entender el efecto de los determinantes actuales en los KPIs calculados.
+
+Por otro lado, el hecho de no poder haber geolocalizado a los clientes con mayor precisión usando una herramienta externa, nos limita a sacar conclusiones respecto al comportamiento geográfico real de los clientes. Si bien en las conclusiones no afecta mucho, entender con mayor precisión este apartado puede darnos una mejor idea de cómo se comportan los clientes, en este caso en EEUU. Sin embargo, el uso de una herramienta externa a Power BI escapa del propósito de este proyecto.
+
+
