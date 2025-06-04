@@ -38,6 +38,6 @@ Clientes Segmentados Visual: se basa en la segmentación por ticket promedio ya 
 
 # Análisis Producto
 
-![Análisis Clientes](../images/Analisis_Producto_Final.png)
+![Análisis Producto](../images/Analisis_Producto_Final.png)
 
-
+Respecto al Análisis Producto, podemos observar métricas como ventas totales, categoría de producto más vendida, Top Productos por mayor venta total, porcentaje de ventas por categoría, comportamiento top 3 productos más vendidos, rotación promedio global de inventario y la matriz de crecimiento porcentual (pre abril 2018). Estas visualizaciones dinámicas nos ofrecen información complementaria con el análisis producto: en este caso, podemos observar que la categoría más vendida en términos globales son las Mountain Bikes, con un 35,31%. Podemos observar también que la marca Trek es la líder en ventas de esta tienda, consolidándose en los segmentos promedio, premium y VIP.
