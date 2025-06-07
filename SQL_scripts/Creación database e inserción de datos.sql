@@ -1,3 +1,4 @@
+DROP Bike_Sales_Store IF EXISTS
 CREATE DATABASE Bike_Sales_Store;
 
 USE Bike_Sales_Store;
