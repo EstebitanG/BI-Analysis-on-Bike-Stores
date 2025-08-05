@@ -17,7 +17,7 @@ Se realizaron medidas con el lenguaje DAX para sacar métricas claves de negocio
 
 -Rotación promedio de inventario: representa cuantas veces las ventas de la empresa superaron su inversión en inventario.
 
-Estas y demás medidas destacables se ahondarán en los análisis clientes, productos, geográficos y conclusiones.
+Estas y demás medidas se ahondarán en los análisis de clientes, productos y geográficos.
 
 # Análisis de Clientes
 
