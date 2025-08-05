@@ -11,7 +11,7 @@ Se realizaron medidas con el lenguaje DAX para sacar métricas claves de negocio
 
 -Segmento Ticket Promedio: donde clasificamos a los clientes en base a su monto de compra, formando 4 clasificaciones (VIP, Premium, Promedio y Básico)
 
--Ventas Totales: la clásica multiplicación de precio por cantidad, añadiéndole el descuento correspondiente.
+-Ventas Totales: multiplicación de precio por cantidad, añadiéndole el descuento correspondiente.
 
 -Facturación promedio por cliente: una medida que divide las ventas totales por el total de clientes.
 
