@@ -21,3 +21,4 @@ Python -> exportación de base de datos SQL mediante mysql.connector y exploraci
 
 GitHub -> documentación y respaldo del proyecto.
 
+![383685_21601_XL](https://github.com/user-attachments/assets/0dc140a0-ef0c-4a1d-9a7d-b786d6664961)
