@@ -58,7 +58,7 @@ Las principales medidas DAX de este análisis fueron:
 
 -Ventas totales (ya explicadas en análisis cliente).
 
--Comportamiento Top 3 Productos más vendidos: si bien esta es una tabla y no una medida, requierió de la creación de una tabla "Calendario", fundamental para hacer análisis de tiempo. En esta tabla se definen distintas granularidades de fecha para personalizar comportamientos temporales. Se relaciona con nuestra tabla de Hechos mediante Date.
+-Comportamiento Top 3 Productos más vendidos: si bien esta es una tabla y no una medida, requirió de la creación de una tabla "Calendario", fundamental para hacer análisis de tiempo. En esta tabla se definen distintas granularidades de fecha para personalizar comportamientos temporales. Se relaciona con nuestra tabla de Hechos mediante Date.
 
 -Rotación Promedio Global Inventario: para este ratio, se adaptó la razón clásica de rotación con las ventas y el inventario (dado que no contamos con el costo de ventas). Usa CALCULATE, SUM Y DIVIDE.
 
