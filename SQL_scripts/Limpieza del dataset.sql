@@ -5,7 +5,7 @@ DELIMITER //
 CREATE PROCEDURE limpieza_tablas_bikes_stores()
 BEGIN
 
-	#1.Espacios innecesarios
+	#Querys diagnóstico espacios innecesarios
 
 	SELECT * FROM brands;
 
@@ -26,7 +26,7 @@ BEGIN
 	SELECT product_name FROM products
 	WHERE product_name <> TRIM(product_name);
 
-	#2.Chequear nulos, números negativos e incoherencias
+	# Querys diagnóstico chequear nulos, números negativos e incoherencias
 
 	SELECT * FROM customers
 	WHERE (first_name = 'NULL' OR '') OR (last_name = 'NULL' OR '') OR (phone = 'NULL' OR '')
@@ -41,20 +41,23 @@ BEGIN
 	END AS 'customer_number'
 	FROM customers;
 
+	#Tabla limpia
 	SELECT * FROM customers_clean;
 
+	#Query diagnóstico duplicados en customers_clean
 	SELECT street, COUNT(street) FROM customers_clean
 	GROUP BY street
 	HAVING COUNT(street) > 1 OR street = '' OR street IS NULL; #no hay clientes duplicados según su dirección
 
+	#Query diagnóstico incoherencia en fechas de pedido y fechas de envío
 	SELECT * FROM orders
 	WHERE shipped_date < require_date;
 
 	CREATE TABLE orders_clean AS
 	SELECT order_id, customer_id, order_status, order_date, require_date, store_id, staff_id,
 	CASE 
-		WHEN shipped_date < require_date THEN require_date
-		WHEN shipped_date IS NULL THEN require_date
+		WHEN shipped_date < require_date THEN require_date #reemplazar fecha de envío por fecha de pedido en caso de incoherencia
+		WHEN shipped_date IS NULL THEN require_date #asumir pedido y entrega el mismo día en caso de nulo
 		ELSE shipped_date
 	END AS 'shipped_date'
 	FROM orders;
@@ -65,6 +68,7 @@ BEGIN
 
 	SELECT * FROM products;
 
+	#Query diagnóstico duplicados en product_name
 	SELECT product_name, COUNT(product_name) FROM products
 	GROUP BY product_name
 	HAVING COUNT(product_name) > 1 OR product_name = '' OR product_name IS NULL;
