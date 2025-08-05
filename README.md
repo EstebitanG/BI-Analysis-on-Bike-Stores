@@ -6,7 +6,7 @@ Este proyecto explora el comportamiento de un negocio distribuidor de bicicletas
 
 Los datos que se usaron fueron sacados del sitio web [Kaggle](https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database).
 
-Se buscó realizar primeramente la creación de la base de datos y la inserción de los datos, junto con la limpieza y modelado de la misma, para posteriormente hacer análisis de negocio tocando 3 ejes principales: Análisis Clientes, Análisis Productos y Análisis Geográfico, para cerrar con una conclusión.
+Se buscó realizar primeramente la creación de la base de datos y la inserción de los datos, junto con la limpieza y modelado de la misma (siguiendo el modelo dimensional), para posteriormente hacer análisis de negocio tocando 3 ejes principales: Análisis Clientes, Análisis Productos y Análisis Geográfico, para cerrar con una conclusión.
 
 Para este proyecto, se utilizaron las herramientas MySQL Workbench y Power Bi principalmente. También se usó Python como apoyo en algunos puntos del proyecto.
 
