@@ -1,4 +1,4 @@
-# Fase 1: Modelado y preparación de datos
+## Fase 1: Modelado y preparación de datos
 
 1. Carga e inserción de datos
 
