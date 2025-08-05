@@ -1,4 +1,4 @@
-# Fase 2: Análisis en Power BI
+## Fase 2: Análisis en Power BI
 
 Modelo de Datos en Power BI
 
