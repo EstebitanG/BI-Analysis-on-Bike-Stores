@@ -1,4 +1,4 @@
-#Data Modeling
+#Data Modeling (modelado dimensional)
 
 #Dimension Producto (tabla products + tabla brands + tabla categories)
 #Creamos una View para Dimensión Producto creando una clave sintética (surrogate key) mediante ROW NUMBER
