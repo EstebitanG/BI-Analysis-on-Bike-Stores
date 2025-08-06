@@ -21,8 +21,7 @@ Estas y demás medidas se ahondarán en los análisis de clientes, productos y g
 
 # Análisis de Clientes
 
-![Análisis Clientes](../images/Analisis_Clientes_Final.png)
-
+<img width="858" height="480" alt="Analisis_Clientes_Final" src="https://github.com/user-attachments/assets/5747e00f-9e52-46c8-b2b4-639b36265d0a" />
 
 En el análisis de clientes, podemos observar métricas como Facturación Promedio por Cliente, Top 10 Clientes por Ventas, cantidad de clientes por segmento (clasificando por facturación) y el comportamiento de ventas totales con granularidad año-mes. Al interactuar con estos gráficos dinámicos, se puede observar que la mayoria de nuestra ventas provenían desde un principio de nuestros clientes Básico y Promedio (facturación menor a $10.000 USD), pero al pasar los años, los clientes tipo Premium y VIP empiezan a tomar un porcentaje importante de nuestro total de ventas, que puede señalar los esfuerzos de la empresa por vender productos de una gama superior. Respecto al comportamiento de las ventas, si bien no se puede decir con exactitud que existe un comportamiento cíclico, sí existe un patrón heterogéneo. La particularidad está en que, desde abril de 2018, hubo un pick importante de ventas a nivel histórico, para luego tener una caída brutal hasta fin de año.
 
@@ -38,7 +37,7 @@ Clientes Segmentados Visual: se basa en la segmentación por ticket promedio ya 
 
 # Análisis Producto
 
-![Análisis Producto](../images/Analisis_Producto_Final.png)
+<img width="835" height="480" alt="Analisis_Producto_Final" src="https://github.com/user-attachments/assets/b466d341-38ed-4968-9a9f-c11d7bafc410" />
 
 Respecto al Análisis Producto, podemos observar métricas como ventas totales, categoría de producto más vendida, Top Productos por mayor venta total, porcentaje de ventas por categoría, comportamiento top 3 productos más vendidos, rotación promedio global de inventario y la matriz de crecimiento porcentual (pre abril 2018). Estas visualizaciones dinámicas nos ofrecen información complementaria con el análisis clientes: en este caso, podemos observar que la categoría más vendida en términos globales son las Mountain Bikes, con un 35,31%. Podemos observar también que la marca Trek es la líder en ventas de esta tienda, consolidándose en los segmentos promedio, premium y VIP. Podemos ver que el comportamiento de los 3 productos más vendidos ha ido reduciéndose notablemente al pasar los quarters. Tenemos una rotación promedio global de inventario de 0.52, lo que señala que las ventas del giro de esta empresa representaron 0.52 veces lo que la empresa invirtió en sus inventarios. Este ratio se puede profundizar con la matriz de crecimiento porcentual, la cual se asemeja a una matriz BCG, pero en vez de hablar de participación relativa de mercado y crecimiento en ventas, hablamos de cantidad vendida histórica del producto y variación interanual de ventas (%). Bajo estos ejes, se definen 4 segmentos estratégicos de productos:
 
@@ -71,7 +70,7 @@ Cantidad_Total_Vendida: donde usamos un SUM con order_quantity filtrando por Cal
 
 # Análisis Geográfico
 
-![Análisis Geográfico](../images/Analisis_Geografico_Final.png)
+<img width="837" height="473" alt="Analisis_Geografico_Final" src="https://github.com/user-attachments/assets/a35b9be9-35b8-49ff-b83c-5a0849bf0c4c" />
 
 Respecto al análisis geográfico, podemos visualizar la concentración de clientes en los 3 estados en los que opera la tienda: California (CA), Texas (TX) y Nueva York (NY). Se puede ver que la ciudad con mayores ventas de manera histórica es Mount Vernon, y que la mayoría de las ciudades con mayores ventas provienen de Nueva York, que se lleva el 67.83% de los clientes en total. Podemos filtrar por segmento de clientes y categoría de producto, para saber el comportamiento particular de cada grupo. 
 
