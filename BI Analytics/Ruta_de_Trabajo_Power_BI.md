@@ -79,7 +79,7 @@ En este análisis geográfico, al ser más visual, no se calcularon nuevas medid
 
 # Conclusiones 
 
-<img width="853" height="478" alt="Conclusion_final" src="https://github.com/user-attachments/assets/7d04fbd7-1cff-4ef4-82ca-98c8d39ddbb2" />
+<img width="855" height="479" alt="Conclusion_final" src="https://github.com/user-attachments/assets/2ae51bc7-500f-496d-b9f9-4105a9aa12f1" />
 
 En el apartado de las conclusiones, luego de haber explorado los 3 apartados principales del negocio, podemos repasar métricas fundamentales, a su vez de explorar nuevas que las complementen.
 
